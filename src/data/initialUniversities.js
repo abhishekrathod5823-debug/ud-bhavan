@@ -1,0 +1,80 @@
+export const initialUniversities = [
+  {
+    id: "uni-bit-sindri",
+    name: "Birsa Institute of Technology (BIT Sindri)",
+    district: "Dhanbad",
+    type: "State Government Technical Institute",
+    departments: ["Civil & Environmental", "Mechanical", "Mining", "Metallurgy", "Computer Science"],
+    activeChallenges: 4,
+    completedProjects: 6,
+    facultyMentors: 14,
+    studentsInvolved: 58,
+    impactScore: 94,
+    image: "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    id: "uni-bit-mesra",
+    name: "Birsa Institute of Technology (BIT Mesra)",
+    district: "Ranchi",
+    type: "Deemed University",
+    departments: ["Renewable Energy", "Remote Sensing & GIS", "Bio-Technology", "Electronics & Communication"],
+    activeChallenges: 5,
+    completedProjects: 9,
+    facultyMentors: 18,
+    studentsInvolved: 72,
+    impactScore: 96,
+    image: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    id: "uni-nit-jsr",
+    name: "National Institute of Technology (NIT Jamshedpur)",
+    district: "Jamshedpur",
+    type: "Institute of National Importance (INI)",
+    departments: ["Automotive Engineering", "Manufacturing & Robotics", "Electrical & Power", "Civil Systems"],
+    activeChallenges: 3,
+    completedProjects: 8,
+    facultyMentors: 12,
+    studentsInvolved: 46,
+    impactScore: 93,
+    image: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    id: "uni-iit-dhanbad",
+    name: "Indian Institute of Technology (IIT ISM Dhanbad)",
+    district: "Dhanbad",
+    type: "Institute of National Importance (INI)",
+    departments: ["Environmental Science", "Geo-Hydrology", "Chemical Engineering", "Data Analytics"],
+    activeChallenges: 6,
+    completedProjects: 11,
+    facultyMentors: 22,
+    studentsInvolved: 88,
+    impactScore: 98,
+    image: "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    id: "uni-cuj-ranchi",
+    name: "Central University of Jharkhand (CUJ)",
+    district: "Ranchi",
+    type: "Central University",
+    departments: ["Geo-Informatics", "Tribal Studies & Rural Management", "Mass Communication", "Water Engineering"],
+    activeChallenges: 3,
+    completedProjects: 4,
+    facultyMentors: 9,
+    studentsInvolved: 32,
+    impactScore: 91,
+    image: "https://images.unsplash.com/photo-1532649538693-f3a2ec1bf8bd?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    id: "uni-kolhan-chaibasa",
+    name: "Kolhan University",
+    district: "Chaibasa",
+    type: "State University",
+    departments: ["Rural Economics", "Applied Botany", "Social Sciences", "Tribal Livelihoods"],
+    activeChallenges: 2,
+    completedProjects: 3,
+    facultyMentors: 7,
+    studentsInvolved: 26,
+    impactScore: 89,
+    image: "https://images.unsplash.com/photo-1592280771190-3e2e4d571952?auto=format&fit=crop&w=400&q=80"
+  }
+];
