@@ -17,14 +17,13 @@ export const Footer = () => {
           {/* Brand Col */}
           <div className="md:col-span-2 space-y-4">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-xl bg-brand-700 p-1 flex items-center justify-center border border-amber-400 overflow-hidden">
-                <img
+                              <img
                   src="/logo.png"
                   onError={(e) => { e.target.onerror = null; e.target.src = "/logo.svg"; }}
                   alt="Ud-Bhavan Logo"
-                  className="w-full h-full object-contain"
+                  className="w-10 h-10 object-contain"
                 />
-              </div>
+              
               <span className="text-2xl font-extrabold text-white tracking-tight">
                 Ud<span className="text-brand-400">-Bhavan</span>
               </span>

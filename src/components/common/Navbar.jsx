@@ -58,14 +58,13 @@ export const Navbar = () => {
             onClick={() => handleNavClick('home')}
             className="flex items-center gap-3 cursor-pointer group"
           >
-            <div className="w-11 h-11 rounded-2xl bg-gradient-to-br from-brand-700 to-emerald-800 p-1.5 text-white shadow-md group-hover:scale-105 transition-transform flex items-center justify-center border-2 border-amber-400 overflow-hidden">
-              <img
+                          <img
                 src="/logo.png"
                 onError={(e) => { e.target.onerror = null; e.target.src = "/logo.svg"; }}
                 alt="Ud-Bhavan Logo"
-                className="w-full h-full object-contain"
+                className="w-20 h-20 object-contain"
               />
-            </div>
+            
             <div>
               <div className="flex items-center gap-2">
                 <span className="text-2xl font-extrabold tracking-tight text-slate-900 font-sans">
