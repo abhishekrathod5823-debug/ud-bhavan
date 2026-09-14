@@ -289,7 +289,7 @@ export const AppProvider = ({ children }) => {
       case 'admin':
         return {
           name: "Shri Rajeshwar Sinha, IAS",
-          title: "Mission Director, SIH Civic Innovation Cell",
+          title: "Mission Director, State Civic Innovation Cell",
           org: "Higher Education & Innovation Dept, Jharkhand",
           role: "State Admin",
           avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80"

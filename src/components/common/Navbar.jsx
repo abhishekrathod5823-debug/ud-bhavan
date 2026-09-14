@@ -58,16 +58,18 @@ export const Navbar = () => {
             onClick={() => handleNavClick('home')}
             className="flex items-center gap-3 cursor-pointer group"
           >
-            <div className="w-11 h-11 rounded-2xl bg-gradient-to-br from-brand-700 to-emerald-800 p-2 text-white shadow-md group-hover:scale-105 transition-transform flex items-center justify-center border-2 border-amber-400">
-              <img src="/logo.svg" alt="Ud-Bhavan Logo" className="w-full h-full object-contain" />
+            <div className="w-11 h-11 rounded-2xl bg-gradient-to-br from-brand-700 to-emerald-800 p-1.5 text-white shadow-md group-hover:scale-105 transition-transform flex items-center justify-center border-2 border-amber-400 overflow-hidden">
+              <img
+                src="/logo.png"
+                onError={(e) => { e.target.onerror = null; e.target.src = "/logo.svg"; }}
+                alt="Ud-Bhavan Logo"
+                className="w-full h-full object-contain"
+              />
             </div>
             <div>
               <div className="flex items-center gap-2">
                 <span className="text-2xl font-extrabold tracking-tight text-slate-900 font-sans">
                   Ud<span className="text-brand-700">-Bhavan</span>
-                </span>
-                <span className="hidden sm:inline-block px-1.5 py-0.5 rounded text-[10px] font-bold bg-amber-100 text-amber-900 border border-amber-300">
-                  SIH 2026
                 </span>
               </div>
               <p className="text-[11px] font-medium text-slate-500 tracking-wide hidden sm:block">

@@ -40,9 +40,9 @@ export const DemoLoginModal = () => {
     },
     {
       id: 'admin',
-      title: 'State Administrator & SIH Evaluation',
+      title: 'State Mission Directorate & Administration',
       name: 'Shri Rajeshwar Sinha, IAS',
-      org: 'Higher Education Dept & AICTE Liaison',
+      org: 'Higher Education & Public Welfare Dept',
       desc: 'State-wide civic analytics, university rankings, duplicate detection rates, and tune AI matching weighting algorithms.',
       icon: <ShieldCheck className="w-5 h-5 text-purple-600" />,
       badge: 'Mission Director',
@@ -69,7 +69,7 @@ export const DemoLoginModal = () => {
 
         <div className="text-center mb-6">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-50 border border-brand-200 text-brand-700 text-xs font-semibold mb-2">
-            <span>SIH Interactive Demo Mode</span>
+            <span>Platform Persona Mode</span>
           </div>
           <h3 className="text-2xl font-bold text-slate-900">
             Select Your Prototype Persona

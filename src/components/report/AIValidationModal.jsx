@@ -68,7 +68,7 @@ export const AIValidationModal = ({
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/70 backdrop-blur-md p-4 overflow-y-auto">
       <div className="bg-white rounded-3xl max-w-xl w-full p-6 sm:p-8 shadow-2xl border border-slate-100 relative animate-in fade-in zoom-in-95 duration-200">
         
-        {/* Simulation Edge-Case Switcher (for SIH Judges) */}
+        {/* Simulation Edge-Case Switcher */}
         <div className="mb-4 pb-3 border-b border-slate-100 flex flex-wrap items-center justify-between gap-2">
           <div className="flex items-center gap-1.5 text-[11px] font-bold text-slate-500">
             <Sparkles className="w-3.5 h-3.5 text-brand-600" />

@@ -1,6 +1,5 @@
 import React from 'react';
 import { AppProvider, useApp } from './context/AppContext';
-import { SIHJudgeTourBar } from './components/common/SIHJudgeTourBar';
 import { Navbar } from './components/common/Navbar';
 import { Footer } from './components/common/Footer';
 import { DemoLoginModal } from './components/common/DemoLoginModal';
@@ -49,9 +48,6 @@ export function App() {
   return (
     <AppProvider>
       <div className="min-h-screen flex flex-col bg-slate-50 text-slate-900 selection:bg-brand-500 selection:text-white font-sans">
-        {/* Sticky SIH Judge Evaluation Tour Bar */}
-        <SIHJudgeTourBar />
-
         {/* Global Navigation */}
         <Navbar />
 

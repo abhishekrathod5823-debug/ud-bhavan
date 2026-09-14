@@ -17,8 +17,13 @@ export const Footer = () => {
           {/* Brand Col */}
           <div className="md:col-span-2 space-y-4">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-xl bg-brand-700 p-1.5 flex items-center justify-center border border-amber-400">
-                <img src="/logo.svg" alt="Ud-Bhavan Logo" className="w-full h-full object-contain" />
+              <div className="w-10 h-10 rounded-xl bg-brand-700 p-1 flex items-center justify-center border border-amber-400 overflow-hidden">
+                <img
+                  src="/logo.png"
+                  onError={(e) => { e.target.onerror = null; e.target.src = "/logo.svg"; }}
+                  alt="Ud-Bhavan Logo"
+                  className="w-full h-full object-contain"
+                />
               </div>
               <span className="text-2xl font-extrabold text-white tracking-tight">
                 Ud<span className="text-brand-400">-Bhavan</span>
@@ -27,9 +32,9 @@ export const Footer = () => {
             <p className="text-slate-400 text-sm max-w-md leading-relaxed">
               {t('footer_tagline')} An AI-orchestrated public interest technology framework matching citizen pain points with academic engineering and CSR capital.
             </p>
-            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-slate-800/80 border border-slate-700 text-amber-300 text-xs font-semibold">
-              <Award className="w-4 h-4 text-amber-400" />
-              <span>{t('footer_sih_note')}</span>
+            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-slate-800/80 border border-slate-700 text-emerald-300 text-xs font-semibold">
+              <Award className="w-4 h-4 text-emerald-400" />
+              <span>{t('footer_platform_note')}</span>
             </div>
           </div>
 
@@ -101,7 +106,7 @@ export const Footer = () => {
         </div>
 
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
-          <p>© 2026 Ud-Bhavan Ecosystem. All rights reserved. Prototype developed for Smart India Hackathon.</p>
+          <p>© 2026 Ud-Bhavan Ecosystem. All rights reserved. Transforming civic challenges into verified solutions.</p>
           <div className="flex items-center gap-1 text-slate-400">
             <span>Engineered with dedication for</span>
             <span className="font-semibold text-brand-400">Digital India & Viksit Bharat</span>

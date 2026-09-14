@@ -33,7 +33,7 @@ export const AdminDashboard = () => {
         <div className="space-y-1 relative z-10">
           <div className="flex items-center gap-2">
             <span className="text-xs font-bold uppercase tracking-wider text-amber-300">
-              State Administrative Operations & SIH Steering Cell
+              State Administrative Operations & Civic Steering Cell
             </span>
             <span className="text-xs bg-purple-800 text-purple-200 px-2 py-0.5 rounded-full">
               Mission Director
@@ -266,7 +266,7 @@ export const AdminDashboard = () => {
             <Award className="w-5 h-5 text-amber-500" />
             <span>Jharkhand Technical Universities Performance Ranking</span>
           </h3>
-          <span className="text-xs font-semibold text-slate-500">SIH Institutional Index</span>
+          <span className="text-xs font-semibold text-slate-500">State Institutional Index</span>
         </div>
 
         <div className="overflow-x-auto">

@@ -13,7 +13,7 @@ export const DashboardView = () => {
     { id: 'citizen', label: 'Citizen View', icon: <User className="w-4 h-4" /> },
     { id: 'university', label: 'University Innovation', icon: <GraduationCap className="w-4 h-4" /> },
     { id: 'industry', label: 'Industry & CSR', icon: <Building2 className="w-4 h-4" /> },
-    { id: 'admin', label: 'SIH Admin & AI Tuning', icon: <ShieldCheck className="w-4 h-4" /> }
+    { id: 'admin', label: 'State Admin & AI Tuning', icon: <ShieldCheck className="w-4 h-4" /> }
   ];
 
   const handleSwitchRole = (roleId) => {

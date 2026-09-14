@@ -73,7 +73,7 @@ export const ReportProblemForm = () => {
     { name: "harmu_waterlogging_culvert_01.jpg", size: "2.4 MB", type: "photo" }
   ]);
 
-  // 1-Click Demo Auto-fill for SIH presenters
+  // 1-Click Demo Auto-fill for sample data
   const handleAutoFillDemo = () => {
     setFormData({
       title: "Monsoon Stormwater Inundation & Silt Choking in Harmu Basin Drainage",
@@ -142,10 +142,10 @@ export const ReportProblemForm = () => {
               type="button"
               onClick={handleAutoFillDemo}
               className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-amber-400 hover:bg-amber-300 text-slate-950 font-extrabold text-xs shadow-md transition-transform hover:scale-105"
-              title="One-click autofill with real Ranchi problem data for SIH judges"
+              title="One-click autofill with real Ranchi problem data"
             >
               <Zap className="w-4 h-4 text-slate-950 fill-current" />
-              <span>⚡ 1-Click Auto-Fill Demo Data (For SIH Presentation)</span>
+              <span>⚡ 1-Click Auto-Fill Sample Data</span>
             </button>
           </div>
         </div>
